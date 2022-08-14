@@ -1,0 +1,7 @@
+label, input, select {
+  display: block;
+  margin: 10px;
+}
+label, input[type="radio"], input[type="checkbox"] {
+  display: inline;
+}
