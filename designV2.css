@@ -1,0 +1,70 @@
+body {
+width: 100%;
+height: 100vh;
+margin: 10;
+background-image: url(https://i.pinimg.com/originals/b2/c3/b3/b2c3b35ca6290a0893175241fa01dd03.jpg);
+font-family: Tahoma;
+font-size: 16px;
+}
+
+.survey {
+  width: 80%;
+  background-color: #D3D3D3;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  min-width: 300px;
+}
+
+h1,p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+label {
+  display: block;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 3px solid #a9a9a9;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.thanks {
+  padding-top: 10px;
+}
+
+input[type="text"],
+textarea,
+select, input[type="email"], input[type="number"] {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.answers {
+  display: block;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 10px 3px;
+}
+
+label {
+  padding-top: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #a9a9a9;
+  border-color: white;
+  min-width: 50px;
+}
