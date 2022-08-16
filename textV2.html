@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="designV2.css">
+    <meta lang="en">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <main>
+    <div class="survey">
+    <h1 id="title">Math Survey Form</h1>
+    <p id="description"> Fill out this survey form to help further mathematics education, we will ask a few questions on your math background and what your favorite math class is. Thank You! </p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">First Name:
+      <input id="name" type="text" placeholder="Enter First Name" required> 
+      </label>
+      <label id="name-label">Last Name: <input id="last name" type="text" placeholder="Enter Last Name" required>
+      </label>
+      <label id="email-label"> Email: <input id="email" type="email" placeholder="Enter Valid Email" required></label>
+      <label id="number-label"> Age (optional): <input id="number" type="number" min="3" max="120" placeholder="Enter #" required></label>
+      <label id="gender"> Gender (optional): 
+      <div class="answers">
+      <input id="genderinput" name="G1" type="radio" value="male"> Male
+      <input id="genderinput" name="G1" type="radio" value="female"> Female
+      <input id="genderinput" name="G1" type="radio" value="non-binary"> Other
+      </div>
+      </label>
+      </fieldset>
+      <fieldset>
+        <label id="education-level"> Enter educational background (current or former):
+        <select id="dropdown" required>
+          <option id="">(Select One)</option>
+          <option id="1">Less than High School</option>
+          <option id="2">High School Lower (9th, 10th)</option>
+          <option id="3">High School Upper (11th,12th)</option>
+          <option id="4">Undergrad (Non-STEM)</option>
+          <option id="5">Undergrad (STEM)</option>
+          <option id="6">Graduate School (Non-STEM)</option>
+          <option id="7">Graduate School (STEM except Math)</option>
+          <option id="8">Graduate School (Math)</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What has been your favorite math class? <input id="favclass" type="text" placeholder="Ex. Topology">
+        </label>
+        <label>Why did you like this math class? <textarea id="enjoy" rows="3" cols="30" placeholder="I liked..."></textarea>
+        </label>
+        <label>What has been your least favorite math class? <input id="Lfavclass" type="text" placeholder="Ex. Chaos Theory">
+        </label>
+        <label>Why did you not like this math class? <textarea id="dislike" rows="3" cols="30" placeholder="I disliked..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Would you like to learn more math in the future?
+        <div class="answers">
+        <input type="checkbox" id="yes" value="yes">Yes
+        <input type="checkbox" id="no" value="no">No
+        <input type="checkbox" id="unsure" value="unsure">Unsure
+        </div>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit">
+      <p class="thanks">Thank you for your input!</p>
+      </div>
+      </main>
+    </form>
+  </body>
+</html>
